@@ -8,9 +8,7 @@ function Counter(){
             return curNum+1;
         });
     }
-    return<>
-        <button onClick={add}>{num}</button>
-    </>
+    return <button onClick={add}>{num}</button>
 }
 
 export default Counter
